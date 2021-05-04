@@ -503,9 +503,9 @@ define(
                  * @returns {Function} focusInvalid parent function
                  */
                 focusInvalid: function () {
-                    if (!window.silentShippingValidation) {
-                        this._super();
-                    }
+//                    if (!window.silentShippingValidation) {
+//                        this._super();
+//                    }
 
                     return this;
                 },
